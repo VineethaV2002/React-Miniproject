@@ -1,0 +1,133 @@
+.main-dash {
+    text-align: center;
+    padding: 30px;
+}
+
+.main-skills-dash {
+    display: flex;
+    margin-top: 20px;
+}
+
+.main-skills-dash .card {
+    width: 25%;
+    margin: 10px;
+    background: #fff;
+    text-align: center;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 1px 15px 10px rgba(0, 0, 0, 0.1);
+}
+
+.main-skills-dash .card h3 {
+    margin: 10px;
+    text-transform: capitalize;
+}
+
+.main-skills-dash .card p {
+    font-size: 12px;
+}
+
+.main-skills-dash .card button {
+    background: orangered;
+    color: #fff;
+    padding: 7px 15px;
+    border-radius: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.main-skills-dash .card button:hover {
+    background: rgba(223, 70, 15, 0.856);
+}
+
+.main-skills-dash .card i {
+    font-size: 22px;
+    padding: 10px;
+}
+
+.main-course-dash {
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.course-box-dash {
+    width: 100%;
+    height: 300px;
+    padding: 10px 10px 30px 10px;
+    margin-top: 10px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
+}
+
+.course-box-dash ul {
+    display: flex;
+    white-space: nowrap;
+}
+
+.course-box-dash ul li {
+    margin: 10px;
+    color: gray;
+    cursor: pointer;
+}
+
+.course-box-dash ul li a {
+    text-decoration: none;
+    color: #101C32;
+    padding: 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+.course-box-dash ul .active {
+    color: #000;
+    border-bottom: 1px solid #000;
+}
+
+.course-box-dash .course {
+    display: flex;
+}
+
+
+
+.box {
+    display: none;
+    width: 200px;
+    margin-right: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: rgb(235, 233, 233);
+}
+
+.box.active {
+    display: inline-block;
+}
+
+.box h3 {
+    margin-bottom: 10px;
+}
+
+.box p {
+    margin-bottom: 10px;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+.box button {
+    background-color: orangered;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.box button:hover {
+    background: rgba(0, 0, 0, 0.842);
+}
+
+.box i {
+    font-size: 50px;
+    float: right;
+    margin-top: 20px;
+}
